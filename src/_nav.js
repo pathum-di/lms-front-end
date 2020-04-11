@@ -1,17 +1,13 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
+      name: 'Admin Dashboard',
       url: '/dashboard',
       icon: 'icon-speedometer',
-      badge: {
-        variant: 'info',
-        text: 'NEW',
-      },
     },
     {
       title: true,
-      name: 'Theme',
+      name: 'Courses',
       wrapper: {            // optional wrapper object
         element: '',        // required valid HTML5 element tag
         attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
@@ -30,7 +26,7 @@ export default {
     },
     {
       title: true,
-      name: 'Components',
+      name: 'Access Links',
       wrapper: {
         element: '',
         attributes: {},
@@ -151,6 +147,14 @@ export default {
       ],
     },
     {
+      title: true,
+      name: 'Users',
+      wrapper: {
+        element: '',
+        attributes: {},
+      },
+    },
+    {
       name: 'Charts',
       url: '/charts',
       icon: 'icon-pie-chart',
@@ -261,20 +265,20 @@ export default {
       icon: 'icon-ban',
       attributes: { disabled: true },
     },
-    {
-      name: 'Download CoreUI',
-      url: 'https://coreui.io/react/',
-      icon: 'icon-cloud-download',
-      class: 'mt-auto',
-      variant: 'success',
-      attributes: { target: '_blank', rel: "noopener" },
-    },
-    {
-      name: 'Try CoreUI PRO',
-      url: 'https://coreui.io/pro/react/',
-      icon: 'icon-layers',
-      variant: 'danger',
-      attributes: { target: '_blank', rel: "noopener" },
-    },
+    // {
+    //   name: 'Download CoreUI',
+    //   url: 'https://coreui.io/react/',
+    //   icon: 'icon-cloud-download',
+    //   class: 'mt-auto',
+    //   variant: 'success',
+    //   attributes: { target: '_blank', rel: "noopener" },
+    // },
+    // {
+    //   name: 'Try CoreUI PRO',
+    //   url: 'https://coreui.io/pro/react/',
+    //   icon: 'icon-layers',
+    //   variant: 'danger',
+    //   attributes: { target: '_blank', rel: "noopener" },
+    // },
   ],
 };
